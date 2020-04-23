@@ -89,4 +89,4 @@ if __name__ == "__main__":
     input_image = cv2.imread('floor1.jpg')
     clone = input_image.copy()
     feature_list = get_features(clone)
-    write_data(feature_list)
+    # write_data(feature_list)
